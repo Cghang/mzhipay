@@ -13,9 +13,9 @@ $params =   array(
     'addtime'     =>  date('Y-m-d H:i:s'),
     'type'        =>  'alipay.trade.precreate',
     'mz_content'   => json_encode(array(
-        'out_trade_no' => 'mzhipay-online', // 交易编号
+        'out_trade_no' => '001', // 交易编号
         'total_amount' => '0.01', // 交易金额 单位:元
-        'name'=> '商品名称',// 付款时商品名称
+        'name'=> 'mzhipay-online',// 付款时商品名称
         'notify_url' => 'https://www.mzhipay.com/notify_url', // 通知地址
         'return_url' => 'https://www.mzhipay.com/return_url', // 返回地址
     ))
